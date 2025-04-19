@@ -9,7 +9,7 @@ Exploited a misconfigured SMB share on Hack The Box’s “Dancing” box to ret
 - [Automation Script](scripts/enum-smb.sh)
 
 ## Prerequisites
-- Kali Linux (nmap, smbclient)
+- Kali Linux (nmap, smbclient) or Parrot OS
 - HTB VPN connection
 
 ## Quick Start
