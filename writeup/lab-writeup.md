@@ -58,12 +58,13 @@ Download worknotes.txt (lateral hints):
 smb: \> cd Amy.J
 smb: \Amy.J\> get worknotes.txt
 `
-`
+
 Text of worknotes.txt:
+```
 - start apache server on the linux machine
 - secure the ftp server
 - setup winrm on dancing
-`
+```
 
 Retrieve flag.txt:
 `
@@ -82,9 +83,9 @@ cat flag.txt
 ## 5. Automation Script
 File: scripts/enum-smb.sh
 
-`
+```
 #!/usr/bin/env bash
-# Usage: ./enum-smb.sh <TARGET_IP>
+#Usage: ./enum-smb.sh <TARGET_IP>
 
 TARGET=$1
 
@@ -105,8 +106,7 @@ EOF
 
 echo "[*] Retrieved flag:"
 cat flag.txt
-`
-
+```
 ## 6. Screenshots & GIFs
 
 - `screenshots/nmap.png` — Nmap output showing ports 135, 139, 445.
